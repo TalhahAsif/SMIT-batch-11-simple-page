@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Oxygen', sans-serif;
+}
+
+.background-image{
+    background-image: url(https://img.freepik.com/premium-photo/abstract-colorful-painted-watercolor-backgroundgenerative-ai_841229-294.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box{
+    border-radius: 10px;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 70px;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+p{
+    font-size: 14px;
+    letter-spacing: 8px;
+    margin: 20px 30px;
+}
+h1{
+    font-size: 50px;
+}
